@@ -22,7 +22,7 @@ case 3: obj.product(a,b); //calling product function to multiply both numbers
 case 4: obj.divide(a,b); //calling divide function for division of both numbers
 	break;
 default:
-System.out.println("Invalid Input"); //if user enters invalid input such as any character
+System.out.println("Invalid Input--select from the options provided"); //if user press wrong button 
 }
 System.out.println("\nWant to continue ? press 1 for Yes and 0 for No :");
 c=ob.nextInt();
